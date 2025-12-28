@@ -29,25 +29,25 @@ namespace UserApi.Controllers
             return Ok(person);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(Person person)
-        {
-            var result = await _personService.CreateAsync(person);
-            return Ok(result);
-        }
+        // [HttpPost]
+        // public async Task<IActionResult> Create(Person person)
+        // {
+        //     var result = await _personService.CreateAsync(person);
+        //     return Ok(result);
+        // }
 
-        [HttpPut]
-        public async Task<IActionResult> Update(Person person)
-        {
-            await _personService.UpdateAsync(person);
-            return Ok();
-        }
+        // [HttpPut]
+        // public async Task<IActionResult> Update(Person person)
+        // {
+        //     await _personService.UpdateAsync(person);
+        //     return Ok();
+        // }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            await _personService.DeleteAsync(id);
-            return Ok();
-        }
+        // [HttpDelete("{id}")]
+        // public async Task<IActionResult> Delete(int id)
+        // {
+        //     await _personService.DeleteAsync(id);
+        //     return Ok();
+        // }
     }
 }

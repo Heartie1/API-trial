@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using UserApi.Data;
 using UserApi.Services;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure; // optional pero helpful for version config
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,10 +20,25 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// ✅ CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()      // allow all origins, pwede pud i-restrict sa Angular URL
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+// ✅ Use CORS before MapControllers
+app.UseCors();
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
 app.MapControllers();
+
 app.Run();

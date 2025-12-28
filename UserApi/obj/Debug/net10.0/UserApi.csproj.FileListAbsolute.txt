@@ -162,3 +162,4 @@ D:\Downloads\Sample\UserApi\obj\Debug\net10.0\refint\UserApi.dll
 D:\Downloads\Sample\UserApi\obj\Debug\net10.0\UserApi.pdb
 D:\Downloads\Sample\UserApi\obj\Debug\net10.0\UserApi.genruntimeconfig.cache
 D:\Downloads\Sample\UserApi\obj\Debug\net10.0\ref\UserApi.dll
+D:\Downloads\Sample\UserApi\obj\Debug\net10.0\UserApi.sourcelink.json
