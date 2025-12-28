@@ -1,0 +1,7 @@
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\UserApi.csproj.AssemblyReference.cache
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\UserApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\UserApi.AssemblyInfoInputs.cache
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\UserApi.AssemblyInfo.cs
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\UserApi.csproj.CoreCompileInputs.cache
+D:\Downloads\Sample\UserApi\obj\Debug\net8.0\UserApi.MvcApplicationPartsAssemblyInfo.cache
